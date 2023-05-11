@@ -52,97 +52,98 @@ arm.rotateCounterClockwise();           // 4) demonstrates camelCase
 
 
 //  1)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun: mana
+//  action 1: check amount of mana
+mana.checkAmount();
+//  action 2: use mana
+mana.useMana();
+//  action 3: refill mana
+mana.refillMana();
 //  2)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun: account
+//  action 1: check balance
+account.checkBalance();
+//  action 2: debit funds
+account.debitFunds();
+//  action 3: credit funds
+account.creditFunds();
 //  3)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun: distance
+//  action 1: total distance
+distance.totalDistanceTravelled();
+//  action 2: distance remaining
+distance.distanceLeftToGo();
+//  action 3: convert distance to km
+distance.convertToKm();
 //  4)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun: list
+//  action 1: add item
+list.addItem();
+//  action 2: remove item
+list.removeItem();
+//  action 3: increase item count
+list.multiplyItem();
 //  5)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun: player's weapon
+//  action 1: load weapon
+player.loadWeapon();
+//  action 2: fire weapon
+player.fireWeapon();
+//  action 3: change weapon
+player.changeWeapon();
 //  6)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun: steeringWheel
+//  action 1: turn left
+steeringWheel.turnLeft();
+//  action 2: turn right
+steeringWheel.turnRight();
+//  action 3: align centre
+steeringWheel.alignCentre();
 //  7)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun: magic
+//  action 1: cast spell
+magic.castSpell();
+//  action 2: choose spell
+magic.selectSpell();
+//  action 3: recharge spell
+magic.rechargeSpell();
 //  8)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun: fire
+//  action 1: feed fire
+fire.feed();
+//  action 2: dampen fire
+fire.dampen();
+//  action 3: start fire
+fire.startFire();
 //  9)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun: vegetable
+//  action 1: wash veg
+vegetable.wash();
+//  action 2: cut veg
+vegetable.cut();
+//  action 3: cook veg
+vegetable.cook();
 //  10)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
-
+//  Noun: quest
+//  action 1: accept quest
+quest.accept();
+//  action 2: plot quest route
+quest.plotRoute();
+//  action 3: hand in quest
+quest.handIn();
 
 #endif
 
 /*
  MAKE SURE YOU ARE NOT ON THE MASTER BRANCH
 
- Commit your changes by clicking on the Source Control panel on the left, entering a message, and click [Commit and push].
- 
- If you didn't already: 
+ Commit your changes by clicking on the Source Control panel on the left,
+ entering a message, and click [Commit and push].
+
+ If you didn't already:
     Make a pull request after you make your first commit
-    pin the pull request link and this repl.it link to our DM thread in a single message.
+    pin the pull request link and this repl.it link to our DM thread in a single
+ message.
 
  send me a DM to review your pull request when the project is ready for review.
 
@@ -150,8 +151,7 @@ arm.rotateCounterClockwise();           // 4) demonstrates camelCase
  */
 
 #include <iostream>
-int main()
-{
-    std::cout << "good to go" << std::endl;
-    return 0;
+int main() {
+  std::cout << "good to go" << std::endl;
+  return 0;
 }
