@@ -52,45 +52,45 @@ arm.rotateCounterClockwise();           // 4) demonstrates camelCase
 
 
 //  1)
-//  Noun: mana
-//  action 1: check amount of mana
-mana.checkAmount();
-//  action 2: use mana
-mana.useMana();
-//  action 3: refill mana
-mana.refillMana();
+//  Noun: wiseWizard
+//  action 1: Casts a powerful spell
+wiseWizard.castSpell();
+//  action 2: Enchants an object
+wiseWizard.enchantObject();
+//  action 3: Dispels magical illusions
+wiseWizard.dispelIllusions();
 //  2)
-//  Noun: account
-//  action 1: check balance
-account.checkBalance();
-//  action 2: debit funds
-account.debitFunds();
-//  action 3: credit funds
-account.creditFunds();
+//  Noun: technoDJ
+//  action 1: plays deck one
+technoDJ.pressPlayOnDeckOne();
+//  action 2: scratches deck two
+technoDJ.scratchDeckTwo();
+//  action 3: chooses new track
+technoDJ.grabNewRecord();
 //  3)
-//  Noun: distance
-//  action 1: total distance
-distance.totalDistanceTravelled();
-//  action 2: distance remaining
-distance.distanceLeftToGo();
-//  action 3: convert distance to km
-distance.convertToKm();
+//  Noun: professionalCyclist
+//  action 1: start pedaling
+professionalCyclist.startPedaling();
+//  action 2: indicate turning left
+professionalCyclist.indicateLeftTurn();
+//  action 3: check helmet straps
+professionalCyclist.checkHelmetStraps();
 //  4)
-//  Noun: list
-//  action 1: add item
-list.addItem();
-//  action 2: remove item
-list.removeItem();
-//  action 3: increase item count
-list.multiplyItem();
+//  Noun: storeAssistant
+//  action 1: add item to cart
+storeAssistant.addItemToCart();
+//  action 2: remove item from cart
+storeAssistant.removeItemFromCart();
+//  action 3: increases the quantity of an item in the cart
+storeAssistant.increaseItemQuantityInCart();
 //  5)
-//  Noun: player's weapon
+//  Noun: playerWeapon
 //  action 1: load weapon
-player.loadWeapon();
+playerWeapon.load();
 //  action 2: fire weapon
-player.fireWeapon();
+playerWeapon.fire();
 //  action 3: change weapon
-player.changeWeapon();
+playerWeapon.change();
 //  6)
 //  Noun: steeringWheel
 //  action 1: turn left
@@ -100,37 +100,37 @@ steeringWheel.turnRight();
 //  action 3: align centre
 steeringWheel.alignCentre();
 //  7)
-//  Noun: magic
-//  action 1: cast spell
-magic.castSpell();
-//  action 2: choose spell
-magic.selectSpell();
-//  action 3: recharge spell
-magic.rechargeSpell();
+//  Noun: knightOnHorse
+//  action 1: dismount horse
+knightOnHorse.dismountFromHorse();
+//  action 2: mount the horse
+knightOnHorse.mountHorse();
+//  action 3: charge on horseback
+knightOnHorse.chargeOnHorse();
 //  8)
-//  Noun: fire
-//  action 1: feed fire
-fire.feed();
-//  action 2: dampen fire
-fire.dampen();
-//  action 3: start fire
-fire.startFire();
+//  Noun: ambulanceDriver
+//  action 1: provide medical assistance to the patient
+ambulanceDriver.provideMedicalAssistance();
+//  action 2: activate the sirens and lights
+ambulanceDriver.activateSirensAndLights();
+//  action 3: drive ambulance
+ambulanceDriver.driveAmbulance();
 //  9)
-//  Noun: vegetable
+//  Noun: headChef
 //  action 1: wash veg
-vegetable.wash();
+headChef.washVegetables();
 //  action 2: cut veg
-vegetable.cut();
+headChef.cutVegetables();
 //  action 3: cook veg
-vegetable.cook();
+headChef.cookVegetables();
 //  10)
-//  Noun: quest
-//  action 1: accept quest
-quest.accept();
+//  Noun: newAdventurer
+//  action 1: accept quests
+newAdventurer.acceptQuests();
 //  action 2: plot quest route
-quest.plotRoute();
+newAdventurer.plotRouteToQuests();
 //  action 3: hand in quest
-quest.handIn();
+newAdventurer.deliverQuests();
 
 #endif
 
