@@ -52,97 +52,98 @@ arm.rotateCounterClockwise();           // 4) demonstrates camelCase
 
 
 //  1)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun: wiseWizard
+//  action 1: Casts a powerful spell
+wiseWizard.castSpell();
+//  action 2: Enchants an object
+wiseWizard.enchantObject();
+//  action 3: Dispels magical illusions
+wiseWizard.dispelIllusions();
 //  2)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun: technoDJ
+//  action 1: plays deck one
+technoDJ.pressPlayOnDeckOne();
+//  action 2: scratches deck two
+technoDJ.scratchDeckTwo();
+//  action 3: chooses new track
+technoDJ.grabNewRecord();
 //  3)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun: professionalCyclist
+//  action 1: start pedaling
+professionalCyclist.startPedaling();
+//  action 2: indicate turning left
+professionalCyclist.indicateLeftTurn();
+//  action 3: check helmet straps
+professionalCyclist.checkHelmetStraps();
 //  4)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun: storeAssistant
+//  action 1: add item to cart
+storeAssistant.addItemToCart();
+//  action 2: remove item from cart
+storeAssistant.removeItemFromCart();
+//  action 3: increases the quantity of an item in the cart
+storeAssistant.increaseItemQuantityInCart();
 //  5)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun: playerWeapon
+//  action 1: load weapon
+playerWeapon.load();
+//  action 2: fire weapon
+playerWeapon.fire();
+//  action 3: change weapon
+playerWeapon.change();
 //  6)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun: steeringWheel
+//  action 1: turn left
+steeringWheel.turnLeft();
+//  action 2: turn right
+steeringWheel.turnRight();
+//  action 3: align centre
+steeringWheel.alignCentre();
 //  7)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun: knightOnHorse
+//  action 1: dismount horse
+knightOnHorse.dismountFromHorse();
+//  action 2: mount the horse
+knightOnHorse.mountHorse();
+//  action 3: charge on horseback
+knightOnHorse.chargeOnHorse();
 //  8)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun: ambulanceDriver
+//  action 1: provide medical assistance to the patient
+ambulanceDriver.provideMedicalAssistance();
+//  action 2: activate the sirens and lights
+ambulanceDriver.activateSirensAndLights();
+//  action 3: drive ambulance
+ambulanceDriver.driveAmbulance();
 //  9)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun: headChef
+//  action 1: wash veg
+headChef.washVegetables();
+//  action 2: cut veg
+headChef.cutVegetables();
+//  action 3: cook veg
+headChef.cookVegetables();
 //  10)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
-
+//  Noun: newAdventurer
+//  action 1: accept quests
+newAdventurer.acceptQuests();
+//  action 2: plot quest route
+newAdventurer.plotRouteToQuests();
+//  action 3: hand in quest
+newAdventurer.deliverQuests();
 
 #endif
 
 /*
  MAKE SURE YOU ARE NOT ON THE MASTER BRANCH
 
- Commit your changes by clicking on the Source Control panel on the left, entering a message, and click [Commit and push].
- 
- If you didn't already: 
+ Commit your changes by clicking on the Source Control panel on the left,
+ entering a message, and click [Commit and push].
+
+ If you didn't already:
     Make a pull request after you make your first commit
-    pin the pull request link and this repl.it link to our DM thread in a single message.
+    pin the pull request link and this repl.it link to our DM thread in a single
+ message.
 
  send me a DM to review your pull request when the project is ready for review.
 
@@ -150,8 +151,7 @@ arm.rotateCounterClockwise();           // 4) demonstrates camelCase
  */
 
 #include <iostream>
-int main()
-{
-    std::cout << "good to go" << std::endl;
-    return 0;
+int main() {
+  std::cout << "good to go" << std::endl;
+  return 0;
 }
